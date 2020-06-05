@@ -419,6 +419,36 @@
     <script src="js/contact_me.js"></script>
     <!-- ALL PLUGINS -->
     <script src="js/custom.js"></script>
+
+    <SCRIPT language="JavaScript">
+        var w = 480,
+            h = 340;
+
+
+        function openWindow(path) {
+            if (document.getElementById) {
+                w = screen.availWidth;
+                h = screen.availHeight;
+            }
+
+            var popW = 800,
+                popH = 700;
+
+            var leftPos = (w - popW) / 2;
+            var topPos = (h - popH) / 2;
+
+
+
+            msgWindow = window.open('', 'popup' +
+                ',top=' + topPos + ',left=' + leftPos + ',       scrollbars=yes');
+
+            msgWindow.document.write('<HTML><HEAD><TITLE>Centered Window</TITLE></HEAD><BODY><FORM    NAME="form1">' +
+                '<img src="' + path + '">' +
+
+
+                '<INPUT TYPE="button" VALUE="OK"onClick="window.close();"></FORM></BODY>   </HTML>');
+        }
+    </script>
 </body>
 
 </html>
