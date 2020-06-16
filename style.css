@@ -696,6 +696,19 @@ xclip
     overflow: hidden;
 }
 
+.services-inner-box img {
+    height: 30em;
+}
+
+.services-inner-box2 {
+    padding: 15px;
+    background: #ffffff;
+    margin-bottom: 30px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
 .services-inner-box::before {
     content: "";
     position: absolute;
