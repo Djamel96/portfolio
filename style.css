@@ -66,6 +66,43 @@ body.demos .container-fluid {
     max-width: 1080px
 }
 
+.subtitle {
+    margin: 0 0 2em 0;
+    /* color: transparent; */
+}
+
+.fancy {
+    line-height: 0.5;
+    text-align: center;
+}
+
+.fancy span {
+    display: inline-block;
+    position: relative;
+    color: transparent;
+}
+
+.fancy span:before,
+.fancy span:after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    border-bottom: 1px solid #009bb7;
+    border-top: 1px solid #009bb7;
+    top: 0;
+    width: 500px;
+}
+
+.fancy span:before {
+    right: 100%;
+    margin-right: 0px;
+}
+
+.fancy span:after {
+    left: 100%;
+    margin-left: 0px;
+}
+
 a {
     color: #1f1f1f;
     text-decoration: none !important;
