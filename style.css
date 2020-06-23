@@ -729,6 +729,7 @@ xclip
 
 .right-box-pro img {
     z-index: 2;
+    height: 18em;
 }
 
 .right-box-pro::before {}
@@ -742,10 +743,6 @@ xclip
     text-align: center;
     position: relative;
     overflow: hidden;
-}
-
-.services-inner-box img {
-    height: 20em;
 }
 
 .services-inner-box2 {
@@ -2796,7 +2793,7 @@ select.mobile-device {
     color: #999 !important;
     margin: 0 !important;
     padding: 0 !important;
-    line-height: 1 !important:
+    line-height: 1 !important;
 }
 
 .stat-wrap p {
@@ -2805,7 +2802,7 @@ select.mobile-device {
     margin: 0;
     font-weight: 300;
     padding: 4px 0 0;
-    line-height: 1 !important:
+    line-height: 1 !important;
 }
 
 #preloader {
