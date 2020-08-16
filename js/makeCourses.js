@@ -6,7 +6,8 @@ class CoursesCategory {
     static businessStartups = "BusinessStartups"
     static networkingSecurity = "NetworkingSecurity"
     static projectManagement = "ProjectManagement"
-    static databases = "Databases"
+    static dataScience = "DataScience"
+
 }
 
 class Institute {
@@ -14,6 +15,7 @@ class Institute {
     static plurarsight = "plurarsight"
     static udemy = "udemy"
     static udacity = "udacity"
+    static linkedIn = "linkedIn"
     static other
 }
 
@@ -62,17 +64,17 @@ var myCourses = [
         "https://www.udemy.com/certificate/UC-95f37ffc-32e5-4d05-a7e9-2368a427cf29/",
         Institute.coursera),
     new Course("Introduction to Structured Query Language (SQL)",
-        CoursesCategory.databases,
+        CoursesCategory.dataScience,
         "images/sqlMechekeganCoursera.png",
         "https://www.coursera.org/account/accomplishments/verify/BULM3FB4N696",
         Institute.coursera),
     new Course("Intermediate Relational Database and SQL",
-        CoursesCategory.databases,
+        CoursesCategory.dataScience,
         "images/courseraSql.png",
         "https://coursera.org/share/c0550b3231f3dd4d6fa399bde673ea0c",
         Institute.coursera),
     new Course("Coursera SQL Server Guided Project",
-        CoursesCategory.databases,
+        CoursesCategory.dataScience,
         "images/sqlServer.png",
         "https://coursera.org/share/ef71c2ea71b623b66140d1e6ed258a47",
         Institute.coursera),
@@ -181,9 +183,71 @@ var myCourses = [
         "images/MS Project.png",
         "images/MS Project.png",
         Institute.other),
+    new Course("Become a Sales Representative",
+        CoursesCategory.businessStartups,
+        "images/salespath.png",
+        "images/salespath.png",
+        Institute.linkedIn),
+    new Course("Prepare Yourself for a Career in Sales",
+        CoursesCategory.businessStartups,
+        "images/PrepareYourselfforaCareerinSales.png",
+        "images/PrepareYourselfforaCareerinSales.png",
+        Institute.linkedIn),
+    new Course("Sales Foundations",
+        CoursesCategory.businessStartups,
+        "images/SalesFoundations.png",
+        "images/SalesFoundations.png",
+        Institute.linkedIn),
+
+    new Course("Learning Data Analytics",
+        CoursesCategory.dataScience,
+        "images/dataanallinkedin.png",
+        "images/dataanallinkedin.png",
+        Institute.linkedIn),
+    new Course("Learning SQL Programming",
+        CoursesCategory.dataScience,
+        "images/sqlLinkedin.png",
+        "images/sqlLinkedin.png",
+        Institute.linkedIn),
+    new Course("Sales Negotiation",
+        CoursesCategory.businessStartups,
+        "images/SalesNegotiation.png",
+        "images/SalesNegotiation.png",
+        Institute.linkedIn),
+    new Course("Sell with stories",
+        CoursesCategory.businessStartups,
+        "images/sellwithStories.png",
+        "images/sellwithStories.png",
+        Institute.linkedIn),
+    new Course("Soft Skills for Sales Professionals",
+        CoursesCategory.businessStartups,
+        "images/SoftSkillsforSalesProfessionals.png",
+        "images/SoftSkillsforSalesProfessionals.png",
+        Institute.linkedIn),
+    new Course("Sales: Handling Objections",
+        CoursesCategory.businessStartups,
+        "images/SalesHandlingObjections.png",
+        "images/SalesHandlingObjections.png",
+        Institute.linkedIn),
+    new Course("Asking Great Sales Questions",
+        CoursesCategory.businessStartups,
+        "images/AskingGreatSalesQuestions.png",
+        "images/AskingGreatSalesQuestions.png",
+        Institute.linkedIn),
+    new Course("Sales: Closing Strategies",
+        CoursesCategory.businessStartups,
+        "images/SalesClosingStrategies.png",
+        "images/SalesClosingStrategies.png",
+        Institute.linkedIn),
+    new Course("AWS Machine Learning",
+        CoursesCategory.dataScience,
+        "images/AWSMachineLearning.png",
+        "images/AWSMachineLearning.png",
+        Institute.udacity),
+
 
 ];
-
+//
 
 
 myCourses.forEach(myFunction);
