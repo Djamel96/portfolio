@@ -244,6 +244,11 @@ var myCourses = [
         "images/AWSMachineLearning.png",
         "images/AWSMachineLearning.png",
         Institute.udacity),
+    new Course("Data Fluency: Exploring and Describing Data",
+        CoursesCategory.dataScience,
+        "images/datafluency.png",
+        "images/datafluency.png",
+        Institute.linkedIn),
 
 
 ];
