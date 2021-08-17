@@ -1,5 +1,5 @@
 class CoursesCategory {
-    static univercity = 'UnivercityDiploma'
+    //static univercity = 'UnivercityDiploma'
     static personelDeve = 'PersonalDeveloppement'
     static backendDeveloppement = "BackendDeveloppement"
     static frontedDeveloppement = "FrontedDeveloppement"
@@ -34,16 +34,16 @@ class Course {
 }
 
 var myCourses = [
-    new Course("State engineer in computer science option Information system and technology",
-        CoursesCategory.univercity,
-        "images/diplome.png",
-        "images/diplome.png",
-        Institute.esi),
-    new Course("Master in computer science, information system and technology option",
-        CoursesCategory.univercity,
-        "images/master.png",
-        "images/master.png",
-        Institute.esi),
+    // new Course("State engineer in computer science option Information system and technology",
+    //     CoursesCategory.univercity,
+    //     "images/diplome.png",
+    //     "images/diplome.png",
+    //     Institute.esi),
+    // new Course("Master in computer science, information system and technology option",
+    //     CoursesCategory.univercity,
+    //     "images/master.png",
+    //     "images/master.png",
+    //     Institute.esi),
     new Course("Coursera Business English: Networking",
         CoursesCategory.personelDeve,
         "images/englishNetworking.png",
