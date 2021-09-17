@@ -1,9 +1,9 @@
 class CoursesCategory {
-    static univercity = 'UnivercityDiploma'
+    // static univercity = 'UnivercityDiploma'
     static personelDeve = 'PersonalDeveloppement'
     static backendDeveloppement = "BackendDeveloppement"
     static frontedDeveloppement = "FrontedDeveloppement"
-    static graphicDesign = "GraphicDesign"
+    // static graphicDesign = "GraphicDesign"
     static businessStartups = "BusinessStartups"
     static networkingSecurity = "NetworkingSecurity"
     static projectManagement = "ProjectManagement"
@@ -34,16 +34,16 @@ class Course {
 }
 
 var myCourses = [
-    new Course("State engineer in computer science option Information system and technology",
-        CoursesCategory.univercity,
-        "images/diplome.png",
-        "images/diplome.png",
-        Institute.esi),
-    new Course("Master in computer science, information system and technology option",
-        CoursesCategory.univercity,
-        "images/master.png",
-        "images/master.png",
-        Institute.esi),
+    // new Course("State engineer in computer science option Information system and technology",
+    //     CoursesCategory.univercity,
+    //     "images/diplome.png",
+    //     "images/diplome.png",
+    //     Institute.esi),
+    // new Course("Master in computer science, information system and technology option",
+    //     CoursesCategory.univercity,
+    //     "images/master.png",
+    //     "images/master.png",
+    //     Institute.esi),
     new Course("Coursera Business English: Networking",
         CoursesCategory.personelDeve,
         "images/englishNetworking.png",
@@ -120,16 +120,16 @@ var myCourses = [
         "images/addFlutterToAndroid.png",
         "images/addFlutterToAndroid.png",
         Institute.coursera),
-    new Course("Udemy Logo Design Essentails",
-        CoursesCategory.graphicDesign,
-        "images/logoDesign.png",
-        "https://www.udemy.com/certificate/UC-d405eb95-0c5c-4b3e-b24a-ab80b4f8dffe/",
-        Institute.udemy),
-    new Course("Pluralsight Fast Prototyping with Flutter & Kotlin",
-        CoursesCategory.graphicDesign,
-        "images/FlutterPrototyping.png",
-        "images/FlutterPrototyping.png",
-        Institute.plurarsight),
+    // new Course("Udemy Logo Design Essentails",
+    //     CoursesCategory.graphicDesign,
+    //     "images/logoDesign.png",
+    //     "https://www.udemy.com/certificate/UC-d405eb95-0c5c-4b3e-b24a-ab80b4f8dffe/",
+    //     Institute.udemy),
+    // new Course("Pluralsight Fast Prototyping with Flutter & Kotlin",
+    //     CoursesCategory.graphicDesign,
+    //     "images/FlutterPrototyping.png",
+    //     "images/FlutterPrototyping.png",
+    //     Institute.plurarsight),
     new Course("Udemy Business Model Canvas",
         CoursesCategory.businessStartups,
         "images/bmc.png",
