@@ -1,2 +1,80 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
 
-/** ADD YOUR AWESOME CODES HERE **/
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px;
+    z-index: 1000;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+#menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+#nav-links li {
+    margin: 0;
+}
+
+#nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+#nav-links a:hover {
+    background-color: #575757;
+}
+
+section {
+    padding: 60px 20px;
+    margin-top: 50px; /* space for fixed navbar */
+}
+
+section h1 {
+    margin-top: 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    #nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #333;
+    }
+
+    #nav-links.active {
+        display: flex;
+    }
+
+    #menu-toggle {
+        display: block;
+    }
+
+    #nav-links a {
+        padding: 15px;
+    }
+}

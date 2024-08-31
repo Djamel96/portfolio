@@ -39,20 +39,17 @@
 
 <body id="page-top" class="politics_version">
 
-    <!-- LOADER -->
-    <!-- <div id="preloader">
-        <div class="loader">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-    </div> -->
-    <!-- end loader -->
-    <!-- END LOADER -->
-
+    <nav id="navbar">
+        <button id="menu-toggle" aria-label="Toggle menu">&#9776;</button>
+        <ul id="nav-links">
+            <li><a href="#about" class="nav-link" data-key="about"></a></li>
+            <li><a href="#project_section" class="nav-link" data-key="projects"></a></li>
+            <li><a href="courses.html" class="nav-link" data-key="courses"></a></li>
+            <li><a href="#contact" class="nav-link" data-key="contact"></a></li>
+        </ul>
+    </nav>
     
-         
+    <br><br>
 
     <div id="about" class="section wb">
         <div class="container">
@@ -112,7 +109,7 @@
     </div>
 
 
-    <div class="section lb">
+    <div class="section lb" id="project_section">
         <div class="container">
             <div class="section-title text-center">
                 <h3>Projets realisés</h3>
@@ -212,6 +209,7 @@
         }
     </script>
     <script src="js/make_projects.js"></script>
+    <script src="js/make_navbar.js"></script>
 </body>
 
 </html>
