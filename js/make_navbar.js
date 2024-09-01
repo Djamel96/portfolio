@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
             projects: 'Projects',
             courses: 'Courses',
             contact: 'Contact Me',
+            recommendation: 'Recommendation',
             aboutSection: {
                 title: 'Djamel Madani',
                 content: "Web and mobile application developer"
@@ -34,6 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
             projects: 'Projets',
             courses: 'Cours',
             contact: 'Contactez-moi',
+            recommendation: 'Recommendation',
             aboutSection: {
                 title: 'À Propos',
                 content: "Développeur d'applications web et mobiles"
@@ -66,7 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     function getBrowserLanguage() {
-        //  navigator.language.slice(0, 2); // e.g., "en" or "fr"
+        navigator.language.slice(0, 2); // e.g., "en" or "fr"
     }
 
     function setLanguage(lang) {
