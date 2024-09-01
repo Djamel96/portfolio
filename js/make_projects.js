@@ -124,7 +124,7 @@ const myApps = [
 
 function generateHTML() {
   const userLang = navigator.language || navigator.userLanguage;
-  const lang = 'fr'; userLang.includes("fr") ? "fr" : "en";
+  const lang = userLang.includes("fr") ? "fr" : "en";
 
   let html = '';
   myApps.forEach(app => {

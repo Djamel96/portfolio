@@ -9,7 +9,7 @@
 <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 <!-- Site Metas -->
-<title>Madani Djamel</title>
+<title>Djamel Madani</title>
 <meta name="keywords" content="">
 <meta name="description" content="">
 <meta name="author" content="">
@@ -27,7 +27,7 @@
 <!-- Custom CSS -->
 <link rel="stylesheet" href="css/custom.css">
 <script src="js/modernizr.js"></script>
- 
+
 <!-- Modernizr -->
 
 <!--[if lt IE 9]>
@@ -39,63 +39,55 @@
 
 <body id="page-top" class="politics_version">
 
-    <!-- LOADER -->
-    <!-- <div id="preloader">
-        <div class="loader">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-    </div> -->
-    <!-- end loader -->
-    <!-- END LOADER -->
+    <nav id="navbar">
+        <button id="menu-toggle" aria-label="Toggle menu">&#9776;</button>
+        <ul id="nav-links">
+            <li><a href="#about" class="nav-link" data-key="about"></a></li>
+            <li><a href="#project_section" class="nav-link" data-key="projects"></a></li>
+            <li><a href="#contact" class="nav-link" data-key="contact"></a></li>
+            <li><a href="courses.html" class="nav-link" data-key="courses"></a></li>
 
-    
-         
+        </ul>
+    </nav>
+
+    <br><br>
 
     <div id="about" class="section wb">
         <div class="container">
             <div class="row">
                 <div class="col-md-9">
-                    <div class="col-12 col-md-9 d-flex flex-column flex-md-row justify-content-center align-items-center">
+                    <div
+                        class="col-12 col-md-9 d-flex flex-column flex-md-row justify-content-center align-items-center">
                         <img src="images/about_circle.png" alt="" class="img-fluid mb-3 mb-md-0" style="width: 120px;">
                         <div class="text-center text-md-left col-12 col-md-7">
-                            <h1 style="color: black;">Madani Djamel</h1>
-                            <h4 style="color: black;">Développeur d'applications web et mobiles</h4>
+                            <h1 style="color: black;">Djamel Madani</h1>
+                            <h4 id="dev_title" style="color: black;"></h4>
                             <h4 style="color: black;">Lille, France</h4>
                         </div>
-                     
-                     
-                    </div>   
+                        <div class="message-box">
+                            <ul>
+                                <li><a href="https://www.linkedin.com/in/djamel-madani-130740151/" target="blank"><i
+                                            class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                <li><a href="mailto:djamelmadani15@gmail.com" target="blank"><i
+                                            class="fa fa-envelope-square" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+
+
+                    </div>
                     <br>
                     <div class="message-box">
-                      
-                        <p style="text-align: justify; color: black;">
-                            Je suis ingénieur en systèmes d'information et développeur d'applications web et mobiles, passionné par la création de solutions de pointe. Tout au long de ma carrière, j'ai réussi à maîtriser toutes les étapes du cycle de développement des applications web et mobiles, fournissant constamment des résultats exceptionnels. Mon engagement envers l'excellence se reflète dans ma recherche de qualité supérieure, le respect strict des délais de projet et ma capacité à écrire un code propre et efficace. Avec un sens aigu du détail et une volonté d'obtenir des performances optimales, je dépasse régulièrement les attentes.
-                        </p>
 
-                        <p style="text-align: justify;  color: black;">
-                            L'un de mes points forts réside dans ma capacité à faire des propositions novatrices et à offrir des suggestions précieuses pour améliorer les fonctionnalités des produits. Je m'épanouis dans des environnements dynamiques et collaboratifs, où je contribue efficacement aux efforts de l'équipe tout en excellant en tant qu'individu.
-                        </p>
-
-                        <p style="text-align: justify;  color: black;">
-                            Si vous recherchez un <b>développeur d'applications mobiles</b> alliant expertise technique, créativité et recherche permanente de la perfection, ne cherchez plus. Je suis impatient de mettre à votre profit mes talents et de consacrer toute ma détermination à la création d'expériences mobiles exceptionnelles.
-                        </p>
-
-             
+                        <div id="profile_description">
+                        </div>
 
                         <li></li>
                         <ul>
-                            <li><b>Stack technique :</b></li> <p style="color: black;">Flutter, Dart, Swift, SwiftUI, iOS, Android, Firebase, GCP, RestFull Api,
+                            <li><b>Stack</b></li>
+                            <p style="color: #4A4A4A;">Flutter, Dart, Swift, SwiftUI, iOS, Android, Firebase, GCP,
+                                RestFull Api,
                                 Xcode, Android Studio, Git, GitHub, ClickUp, Figma, Zeplin, Adobe XD, Design
                                 Thinking, Agile Scrum, Agora RTC, OTP Auth, Jira, CI/CD.</p> <br>
-                            <li><b>Vous pouvez me contacter sur :</b></li>
-                            <li><a href="https://www.linkedin.com/in/djamel-madani-130740151/" target="blank"><i
-                                        class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                            <li><a href="mailto:djamelmadani15@gmail.com" target="blank"><i
-                                        class="fa fa-envelope-square" aria-hidden="true"></i></a></li>
-
 
                         </ul>
 
@@ -112,341 +104,21 @@
     </div>
 
 
-    <div class="section lb">
+    <div class="section lb" id="project_section">
         <div class="container">
             <div class="section-title text-center">
-                <h3>Projets realisés</h3>
-                <p>Je suis spécialiste des applications mobiles depuis 2018, et voici la liste des applications en ligne sur PlayStore et AppStore.</p>
+                <h4 id="publishedProject"></h4>
+                <p id="project_description"></p>
             </div>
             <!-- end title -->
 
             <div id="projects" class="row">
-
-                <div class="col-md-4">
-
-                    <div class="services-inner-box2">
-
-                        <div class="ser-icon" style="background-color: transparent;width: fit-content;">
-                            <img src="images/app_icon.png" height="100" alt=""
-                                style="background-color: white; border-radius: 100%;">
-                        </div>
-
-                        <h2>Beesiha</h2>
-
-                        <p> An intuitive and simple app for a better healthcare experience. You can Find your doctor
-                            nearby, by name or specialty, Select the practioner at any time and Get easy and free access
-                            to a wide range of doctors. Video consultation
-                            is available, choose your doctor and book an online appointment. Select video consultation
-                            as a reason of consultation.</p><br>
-
-                        <ul style="display: inline-flex;">
-                            <!-- Android app -->
-                            <li>
-                                <a href="https://play.google.com/store/apps/details?id=io.beesolution.beesiha"
-                                    target="_blank"><img src="images/getitOngooleplay.png" width="180" alt=""
-                                        style="background-color: white;"></a>
-                            </li>
-                            <!-- iOS app -->
-                            <li>
-                                <a href="https://apps.apple.com/dz/app/beesiha/id1530622872" target="_blank"><img
-                                        src="images/getOnAplleStore.png" width="140" alt=""
-                                        style="background-color: white;"></a>
-                            </li>
-                        </ul>
-
-
-                    </div>
-
-                </div>
-                <!-- ****** Beesiha Pro -->
-                <div class="col-md-4">
-
-                    <div class="services-inner-box2">
-
-
-                        <div class="ser-icon" style="background-color: transparent;width: fit-content;">
-                            <img src="images/beesiha_pro.png" height="100" alt=""
-                                style="background-color: white;  border-radius: 100%; ">
-                        </div>
-                        <h2>Beesiha Pro</h2>
-
-                        <p>This application is dedicated to healthcare professionals for practice management, from the
-                            mobile! An application that will allow you to: Consult your agenda, Create your
-                            appointments, Add and edit your patients, Get as close
-                            as possible to your patients' medical information, Be notified of all events concerning the
-                            firm, Organize your waiting room, Notify your patients in the event of an unforeseen event
-                        </p>
-                        <ul style="display: inline-flex;">
-                            <!-- Android app -->
-                            <li>
-                                <a href="https://play.google.com/store/apps/details?id=com.beesiha.doctor"
-                                    target="_blank"><img src="images/getitOngooleplay.png" width="180" alt=""
-                                        style="background-color: white;"></a>
-                            </li>
-                            <!-- iOS app -->
-                            <li>
-                                <a href="https://apps.apple.com/us/app/beesiha-pro/id1571821211" target="_blank"><img
-                                        src="images/getOnAplleStore.png" width="140" alt=""
-                                        style="background-color: white;"></a>
-                            </li>
-                        </ul>
-                    </div>
-
-                </div>
-
-                <!-- ******** Beelha ****-->
-                <div class="col-md-4">
-
-                    <div class="services-inner-box2">
-
-                        <div class="ser-icon" style="background-color: transparent;width: fit-content;">
-                            <img src="images/beelha.png" height="100" alt="" style="background-color: white;  ">
-                        </div>
-                        <h2>Beelha</h2>
-
-                        <p> Beelha is the clone of Beesiha in Portugal. You can Find your doctor nearby, by name or
-                            specialty, Select the practioner at any time and Get easy and free access to a wide range of
-                            doctors. Video consultation is available, choose
-                            your doctor and book an online appointment. Select video consultation as a reason of
-                            consultation.
-                        </p><br><br>
-                        <ul style="display: inline-flex;">
-                            <!-- Android app -->
-                            <li>
-                                <a href="https://play.google.com/store/apps/details?id=com.app.beelha"
-                                    target="_blank"><img src="images/getitOngooleplay.png" width="180" alt=""
-                                        style="background-color: white;"></a>
-                            </li>
-                            <!-- iOS app -->
-                            <li>
-                                <a href="https://apps.apple.com/us/app/beelha/id1555261176" target="_blank"><img
-                                        src="images/getOnAplleStore.png" width="140" alt=""
-                                        style="background-color: white;"></a>
-                            </li>
-                        </ul>
-                    </div>
-
-                </div>
-
-                <!-- ********* Findadmission Student-->
-                <div class="col-md-4">
-                    <div class="services-inner-box2">
-
-                        <div class="ser-icon" style="background-color: transparent;width: fit-content;">
-                            <img src="images/sudentLogo.png" height="100" width="100" alt=""
-                                style="background-color: white; border-radius: 100%;padding: 4px;">
-                        </div>
-                        <h2>Findadmission Student</h2>
-
-                        <p>Findadmission is an Android and iOS mobile application that allows student seeking admission
-                            abroad access to valuable information and opportunities to communicate and submit
-                            applications to their prospective universities or colleges.
-                            As a student, it can be a very tiring exercise searching and applying for admission to
-                            different colleges. The platform make it easy and fast for everyone.
-
-                        </p><br>
-                        <ul style="display: inline-flex;">
-                            <!-- Android app -->
-                            <li>
-                                <a href="https://play.google.com/store/apps/details?id=com.worldview.student"
-                                    target="_blank"><img src="images/getitOngooleplay.png" width="180" alt=""
-                                        style="background-color: white;"></a>
-                            </li>
-                            <!-- iOS app -->
-                            <li>
-                                <a href="https://apps.apple.com/us/app/findadmission/id1564003560" target="_blank"><img
-                                        src="images/getOnAplleStore.png" width="140" alt=""
-                                        style="background-color: white;"></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- **** Findadmission Institute -->
-                <div class="col-md-4">
-
-                    <div class="services-inner-box2">
-
-                        <div class="ser-icon" style="background-color: transparent;width: fit-content;">
-                            <img src="images/logoRounded.png" height="100" alt=""
-                                style="background-color: white; border-radius: 100%;">
-                        </div>
-
-                        <h2>Findadmission Institute</h2>
-
-                        <p> You give admission, we recruit. Findadmission has the largest prospective international
-                            student community. With Findadmission, you complete your profile and define requirements,
-                            while we market, match, recruit, and forward a vetted
-                            application to you for consideration. Findadmission can help you reach a wider student
-                            market in a cost-effective way.</p><br><br>
-
-                        <ul style="display: inline-flex;">
-                            <!-- Android app -->
-                            <li>
-                                <a href="https://play.google.com/store/apps/details?id=com.worldview.findadmission.findadmission"
-                                    target="_blank"><img src="images/getitOngooleplay.png" width="180" alt=""
-                                        style="background-color: white;"></a>
-                            </li>
-                            <!-- iOS app -->
-                            <li>
-                                <a href="https://apps.apple.com/us/app/findadmission-institute/id1550966929"
-                                    target="_blank"><img src="images/getOnAplleStore.png" width="140" alt=""
-                                        style="background-color: white;"></a>
-                            </li>
-                        </ul>
-                    </div>
-
-                </div>
-
-                <!--  ******* Findadmission Affiliate -->
-                <div class="col-md-4">
-
-                    <div class="services-inner-box2">
-
-                        <div class="ser-icon" style="background-color: transparent;width: fit-content;">
-                            <img src="images/affilatelogo.jpeg" height="100" alt=""
-                                style="background-color: white; border-radius: 100%;">
-                        </div>
-
-                        <h2>Findadmission Affiliate</h2>
-
-                        <p> This plateform allow to affiliates of findadmission all around the word a fast admission
-                            process. You can place your students under the spotlight of hundreds of Findadmission
-                            institution partners around the world, all while being
-                            rewarded. We’re your trusted source for: information, updates, new policies affecting
-                            international education industry, headlines on international education and more!</p><br>
-
-                        <ul style="display: inline-flex;">
-                            <!-- Android app -->
-                            <li>
-                                <a href="https://play.google.com/store/apps/details?id=com.app.findadmissionaffiliate"
-                                    target="_blank"><img src="images/getitOngooleplay.png" width="180" alt=""
-                                        style="background-color: white;"></a>
-                            </li>
-                            <!-- iOS app -->
-                            <li>
-                                <a href="https://apps.apple.com/us/app/findadmission-affiliate/id1559374342"
-                                    target="_blank"><img src="images/getOnAplleStore.png" width="140" alt=""
-                                        style="background-color: white;"></a>
-                            </li>
-                        </ul>
-                    </div>
-
-                </div>
-
-                <!--  ******* Jacob Electric -->
-                <div class="col-md-4">
-
-                    <div class="services-inner-box2">
-
-                        <div class="ser-icon" style="background-color: transparent;width: fit-content;">
-                            <img src="images/Jacob_icon.png" height="100" alt=""
-                                style="background-color: white; border-radius: 100%;">
-                        </div>
-
-                        <h2>WorldView Pro</h2>
-
-                        <p> Are you a qualify electrician looking to enjoy maximum work flexibility and lucrative income
-                            stream! WorldView Pro Freelance Electrician program is ready to bring you the work-life
-                            balance and steady revenue you need using our
-                            Mobile app to get you busy earning what you deserved as a qualify electrician. WorldView Pro
-                            understands how tiring it can be to report to exactly the same location every day,
-                            dealing with the same boss, working on the same
-                            job.
-                        </p>
-                        <ul style="display: inline-flex;">
-                            <!-- Android app -->
-                            <li>
-                                <a href="https://play.google.com/store/apps/details?id=com.jacob.electric"
-                                    target="_blank"><img src="images/getitOngooleplay.png" width="180" alt=""
-                                        style="background-color: white;"></a>
-                            </li>
-                            <!-- iOS app -->
-                            <li>
-                                <a href="https://apps.apple.com/us/app/jacob-electric/id1579037987" target="_blank"><img
-                                        src="images/getOnAplleStore.png" width="140" alt=""
-                                        style="background-color: white;"></a>
-                            </li>
-                        </ul>
-                    </div>
-
-                </div>
-
-                  <!--  ******* Jacob Electric -->
-                  <div class="col-md-4">
-
-                    <div class="services-inner-box2">
-
-                        <div class="ser-icon" style="background-color: transparent;width: fit-content;">
-                            <img src="images/applicant.png" height="100" alt=""
-                                style="background-color: white; border-radius: 100%;">
-                        </div>
-
-                        <h2>FindVisaCounsellor Applicant</h2>
-
-                        <p> 
-                            FindVisaCounsellor is a marketplace that connects visa applicants with highly qualified Visa experts who can assist you in applying for the correct visa, submitting the proper documents, preparing for your visa interview, and providing a complete visa service to improve your chances of getting your visa approved.
-                            
-                        </p>
-                        <br> <br> <br>
-                        <ul style="display: inline-flex;">
-                            <!-- Android app -->
-                            <li>
-                                <a href="https://play.google.com/store/apps/details?id=com.fvcapplicant.fvcapplicant&hl=en_CA&gl=US"
-                                    target="_blank"><img src="images/getitOngooleplay.png" width="180" alt=""
-                                        style="background-color: white;"></a>
-                            </li>
-                            <!-- iOS app -->
-                            <li>
-                                <a href="https://apps.apple.com/in/app/findvisacounselor-applicant/id1658269872" target="_blank"><img
-                                        src="images/getOnAplleStore.png" width="140" alt=""
-                                        style="background-color: white;"></a>
-                            </li>
-                        </ul>
-                    </div>
-
-                </div>
-
-                   <!--  ******* Jacob Electric -->
-                   <div class="col-md-4">
-
-                    <div class="services-inner-box2">
-
-                        <div class="ser-icon" style="background-color: transparent;width: fit-content;">
-                            <img src="images/counselor.png" height="100" alt=""
-                                style="background-color: white; border-radius: 100%;">
-                        </div>
-
-                        <h2>FindVisaCounsellor Counsellor</h2>
-
-                        <p> 
-                            The ideal site for Visa Experts to connect and hired by visa applicants and make more money.
-                            Looking to make contact with visa applicants who require assistance? You've come to the right place. FindVisaCounsellor is the world's largest and most secure online visa consultation service, connecting those who require expert advice on which visa to apply for, which documents to submit, and how to prepare for a visa interview if necessary in order to improve their chances of visa approval.  </p>
-                    
-                        <ul style="display: inline-flex;">
-                            <!-- Android app -->
-                            <li>
-                                <a href="https://play.google.com/store/apps/details?id=com.app.visacounsellor&hl=en_CA&gl=US"
-                                    target="_blank"><img src="images/getitOngooleplay.png" width="180" alt=""
-                                        style="background-color: white;"></a>
-                            </li>
-                            <!-- iOS app -->
-                            <li>
-                                <a href="https://apps.apple.com/in/app/findvisacounsellor-counsellor/id1660122131" target="_blank"><img
-                                        src="images/getOnAplleStore.png" width="140" alt=""
-                                        style="background-color: white;"></a>
-                            </li>
-                        </ul>
-                    </div>
-
-                </div>
-                <!--****************************** End of project section, for new projects add above this line -->
             </div>
             <!-- end row -->
         </div>
         <!-- end container -->
     </div>
-  
+
 
     <!-- end row -->
     </div>
@@ -460,19 +132,22 @@
     <div id="contact" class="section db">
         <div class="container">
             <div class="section-title text-center">
-                <h3>Contacter Me</h3>
-                <p>Don't hesitate to contact me any time !</p>
+                <h3 id="contact_me_on"></h3>
+                <p id="dont_hesitate"></p>
                 <br>
                 <p style="color: burlywood;">Email :
                     <a href="mailto:djamelmadani15@gmail.com" style="color: burlywood;">djamelmadani15@gmail.com</a>
-                </p>
-               
+                </p><br>
+                <div class="message-box">
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/djamel-madani-130740151/" target="blank"><i
+                                    class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        <li><a href="mailto:djamelmadani15@gmail.com" target="blank"><i class="fa fa-envelope-square"
+                                    aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
 
             </div>
-
-
-
-
             <!-- end row -->
         </div>
         <!-- end container -->
@@ -536,8 +211,8 @@
                 '<INPUT TYPE="button" VALUE="OK"onClick="window.close();"></FORM></BODY>   </HTML>');
         }
     </script>
-    <script src="js/makeCourses.js"></script>
-    <script src="make_projects.js"></script>
+    <script src="js/make_projects.js"></script>
+    <script src="js/make_navbar.js"></script>
 </body>
 
 </html>

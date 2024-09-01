@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -8,7 +12,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #333;
+    background-color: #423855;
     padding: 10px;
     z-index: 1000;
     display: flex;
@@ -23,6 +27,10 @@ body {
     color: white;
     font-size: 24px;
     cursor: pointer;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 1100; /* Ensure it’s above other elements */
 }
 
 #nav-links {
@@ -64,6 +72,10 @@ section h1 {
         flex-direction: column;
         width: 100%;
         background-color: #333;
+        position: fixed; /* Fix the menu at the top */
+        top: 50px; /* Position it below the fixed menu toggle */
+        left: 0;
+        z-index: 1000; /* Ensure it’s below the menu toggle */
     }
 
     #nav-links.active {
