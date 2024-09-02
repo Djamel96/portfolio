@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function setLanguage(lang) {
-        const texts = translations[lang] || translations['en'];
+        const texts = translations[lang] || translations['fr'];
 
         document.querySelectorAll('.nav-link').forEach(link => {
             link.textContent = texts[link.getAttribute('data-key')];
